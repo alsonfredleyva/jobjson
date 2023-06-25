@@ -1,12 +1,41 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" }
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "password1",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "username": "employee1",
+      "password": "password2",
+      "role": "employee"
+    },
+    {
+      "id": 3,
+      "username": "admin1",
+      "password": "password3",
+      "role": "admin"
+    }
+  ]
   ],
-  "JobsSeeker": [
-    { "id": 1, "Jobname": "IT network","postId": 1},
-    { "id": 2, "Jobname": "Web Developer","postId": 1},
-    { "id": 3, "Jobname": "Web Designer", "postId": 1}
-  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "description": "Seeking a skilled software engineer...",
+      "requirements": "Bachelor's degree in Computer Science...",
+      "status": "open"
+    },
+    {
+      "id": 2,
+      "title": "Data Analyst",
+      "description": "Looking for a data analyst with experience...",
+      "requirements": "Strong analytical skills...",
+      "status": "open"
+    }
+  ]
   "profile": {
     "name": "Job Search System"
   }
