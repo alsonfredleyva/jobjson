@@ -1,4 +1,5 @@
 {
+{
   "users": [
     {
       "id": 1,
@@ -19,6 +20,8 @@
       "role": "admin"
     }
   ]
+}
+{
   "jobs": [
     {
       "id": 1,
@@ -35,6 +38,7 @@
       "status": "open"
     }
   ]
+}
   "profile": {
     "name": "Job Search System"
   }
